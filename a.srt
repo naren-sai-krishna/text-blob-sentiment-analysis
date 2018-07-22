@@ -1,0 +1,228 @@
+﻿1
+00:00:01,550 --> 00:00:07,240
+High in this video we are going to talk about stack abstract data types.
+
+2
+00:00:07,430 --> 00:00:09,130
+So let's get started.
+
+3
+00:00:09,170 --> 00:00:12,680
+And as I said earlier it is an abstract data type.
+
+4
+00:00:12,860 --> 00:00:19,070
+We usually represent abstract data types with interfaces for example in Java.
+
+5
+00:00:19,340 --> 00:00:24,220
+The basic operations are the Pope the push and the peak.
+
+6
+00:00:24,350 --> 00:00:29,430
+It has a so-called lethal structure which means that Last In First Out.
+
+7
+00:00:29,480 --> 00:00:36,190
+So the last item the insert is going to be the first item we take out.
+
+8
+00:00:36,270 --> 00:00:42,540
+It's very important that in the most high level of programming languages that can be easily implemented
+
+9
+00:00:42,600 --> 00:00:51,000
+either with arrays or linguists and a number of programming languages are stack oriented meaning they
+
+10
+00:00:51,000 --> 00:00:53,470
+define the most basic operations.
+
+11
+00:00:53,490 --> 00:01:00,570
+For example are adding two numbers printing a corrector on the concert or so on as taking their arguments
+
+12
+00:01:00,570 --> 00:01:05,840
+from the stack and placing any return values back on the stack.
+
+13
+00:01:06,270 --> 00:01:09,320
+So for example we have this push operation.
+
+14
+00:01:09,480 --> 00:01:13,040
+We put the given item to the top of the stack.
+
+15
+00:01:13,080 --> 00:01:15,000
+It is a very simple operation.
+
+16
+00:01:15,000 --> 00:01:18,770
+It can be done in Ordover and so cost on time complexity.
+
+17
+00:01:18,960 --> 00:01:26,500
+So we would like to push the 12 on the stack we just insert it then we push the 56.
+
+18
+00:01:26,610 --> 00:01:29,670
+We are going to put it on the top of the 12.
+
+19
+00:01:30,030 --> 00:01:32,300
+We are going to push 88.
+
+20
+00:01:32,310 --> 00:01:36,070
+It's going to be the next item we pushing through the stack.
+
+21
+00:01:36,090 --> 00:01:41,240
+Ok so the push operation is basically adding items to the stack.
+
+22
+00:01:41,250 --> 00:01:43,500
+What about the pop operation.
+
+23
+00:01:43,590 --> 00:01:47,780
+We take the last item we have inserted to the top of the stack.
+
+24
+00:01:47,790 --> 00:01:49,650
+This is the so-called life force structure.
+
+25
+00:01:49,650 --> 00:01:50,980
+As I said earlier.
+
+26
+00:01:50,980 --> 00:01:56,100
+So the last item we have inserted will be the first item we take out.
+
+27
+00:01:56,250 --> 00:01:57,990
+It's a very simple operation.
+
+28
+00:01:57,990 --> 00:02:03,270
+It can be done also in Costanzo or don't want time complexity.
+
+29
+00:02:03,390 --> 00:02:10,620
+So if we call this Taggert poop it's going to pull up the last item or inserted and we inserted the
+
+30
+00:02:10,620 --> 00:02:11,430
+88.
+
+31
+00:02:11,430 --> 00:02:15,040
+So that's why it's going to be pulled out of the stack.
+
+32
+00:02:15,370 --> 00:02:18,490
+Ok what if we call the pop method again.
+
+33
+00:02:18,610 --> 00:02:23,550
+Then it's going to pop out the next item which is the 56.
+
+34
+00:02:23,580 --> 00:02:25,660
+So what about the cooperation.
+
+35
+00:02:25,860 --> 00:02:31,670
+It's going to return the item from the top of the stack without removing it.
+
+36
+00:02:31,680 --> 00:02:36,050
+It's again a very simple operation it can be done in constant time complexity.
+
+37
+00:02:36,060 --> 00:02:43,320
+So what's the difference between the peak and pop method the pop matter is going to remove the last
+
+38
+00:02:43,380 --> 00:02:45,110
+item from the stack.
+
+39
+00:02:45,150 --> 00:02:47,730
+The peak method is going to show.
+
+40
+00:02:47,730 --> 00:02:53,030
+So it's going to return the value of the last item without removing it.
+
+41
+00:02:53,070 --> 00:02:57,860
+So the size the items in the stack is not going to change.
+
+42
+00:02:57,870 --> 00:02:58,250
+OK.
+
+43
+00:02:58,260 --> 00:03:03,050
+So if we call the peek method is just going to return 88.
+
+44
+00:03:03,180 --> 00:03:08,940
+But the structure of the stack remains the same which means that we are not going to remove 88.
+
+45
+00:03:09,090 --> 00:03:11,760
+We're just going to take the well-you.
+
+46
+00:03:12,150 --> 00:03:16,350
+So what about the applications of stack abstract data type.
+
+47
+00:03:16,350 --> 00:03:21,910
+Of course in stack oriented programming languages we can use Ptak as an abstract data type.
+
+48
+00:03:22,170 --> 00:03:28,330
+And lots of lots of Grof algorithms that relies heavily on stack abstract data types such as that data
+
+49
+00:03:28,330 --> 00:03:31,480
+for search can be implemented with the map of stacks.
+
+50
+00:03:31,680 --> 00:03:33,050
+OK we can implement it.
+
+51
+00:03:33,060 --> 00:03:36,370
+We have of recursion but we can implement it.
+
+52
+00:03:36,370 --> 00:03:38,270
+We have stacks as well.
+
+53
+00:03:38,490 --> 00:03:45,930
+Or finding the oil or cycles in a graph relies heavily on stack abstract data type or finding strongly
+
+54
+00:03:45,930 --> 00:03:48,120
+connected components in a graph.
+
+55
+00:03:48,210 --> 00:03:55,770
+For example for Cazayoux algorithm we definitely have to use stack as an underlying abstract data type.
+
+56
+00:03:55,770 --> 00:03:59,310
+So basically that's all about stacks in the main.
+
+57
+00:03:59,310 --> 00:04:00,230
+Thanks for watching.
+
